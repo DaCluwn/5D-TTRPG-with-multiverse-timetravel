@@ -1,0 +1,10 @@
+{"max_turn":5,
+"logs":[
+    "Seoni From the prime timeline traveled back to the end of 1st round/begining of 2nd. She could still do some stuff but It's not that important. ",
+    "lorem ipsum",
+    "placeholder text",
+    "blah blah blah",
+    "yada yada",
+    "Board at the end of round"
+    ],
+"map_area_links":[[{"bounds":[600,800,700,900],"onclick":"set_time_node(1,3,1)"}],[],[],[],[],[]]}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script src="main.js"></script>
+    <title>Test Page</title>
+  </head>
+  <body>
+    <div id="app" >
+		<div id="mapscontainer" style="display: inline-flex;">
+			<div id="battlemap" class="container">
+				<map id="primary" name="primary"s>
+				</map>
+				<img id="battlemapimg"
+					usemap="#primary"
+					src=""/>
+			</div>
+			<div id="timescale" class="slider-wrapper">
+				<label id="timescale-label" class="vertical-label">Turns</label>
+  				<input id="timescale-slider" type="range" min="0" max="4" value="0" class="vertical-slider" onchange="updatetutrn(this.value)"/>
+			</div>
+			<div id="timemap" class="container">
+				<map id="secondary" name="secondary">
+				</map>
+				<img id="timemapimg"
+					usemap="#secondary"
+					src="Timelines\timelines.jpg"/>
+			</div>
+		</div>
+		<div id="messagescontainer" class="container">
+			<div style="font-size: 25px;">Turn Log</div>
+			<div id="turn-log">
+			</div>
+		</div>
+	</div>
+  </body>
+</html>
+

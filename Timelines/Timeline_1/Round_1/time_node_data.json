@@ -1,0 +1,10 @@
+{"max_turn":5,
+"logs":[
+    "Board at the start of the round",
+    "Seoni moves closer so she can cast Caustic blast and does so. \n Boggard makes a reflex save D20(2)+5=7 vs DC 19 => critical fail. Taking 6 Acid damage and 1 Persitent.",
+    "Valeros moves in to close comat and strikes at the wounded Boggard. D20(4)+12 = 16 => misses \n Raises shield afterwards.",
+    "This is where green Boggard's turn would be. \n But in interest of showing the functionality I will not do more detailed actions. Look at Timeline I Round 3 or Timeline II Round 1, for timetravel things. \n you can do so by clicking on the tree-chart to the left of the battle map",
+    "This is where the blue boggard's turn would be",
+    "Board at the end of round"
+    ],
+"map_area_links":[[],[],[],[],[],[]]}

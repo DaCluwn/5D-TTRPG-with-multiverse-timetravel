@@ -1,0 +1,11 @@
+{"max_turn":5,
+"logs":[
+    "Board at the start of the round",
+    "Seoni Decides that standing still is boring so she travels back in time to Round 1, creating a split timeline \n though it's easier if you can only travel to the end of a turn and fit the actions made into the next one. \n As you can see there's a special symbol showing what timeline and round she went to. you can also click on it as a shortcut",
+    "And now that it's Valeros turn, Seoni no longer exists in this timelie. But he and boggards don't mind standing around, so it goes on.",
+    "blah blah blah",
+    "yada yada",
+    "Board at the end of round"
+    ],
+"map_area_links":[[],[{"bounds":[700,800,800,900],"onclick":"set_time_node(2,2,0)"}],[],[],[],[]]
+}
