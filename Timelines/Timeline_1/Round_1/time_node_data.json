@@ -7,4 +7,5 @@
     "This is where the blue boggard's turn would be",
     "Board at the end of round"
     ],
-"map_area_links":[[],[],[],[],[],[]]}
+"map_area_links":[[{"bounds":[400,700,500,800],"onclick":"set_additionalinfo_image('Timelines/character sheetseoni.jpg')"},
+{"bounds":[500,900,600,1100],"onclick":"set_additionalinfo_image('Timelines/character sheet valeros.jpg')"}],[],[],[],[],[]]}

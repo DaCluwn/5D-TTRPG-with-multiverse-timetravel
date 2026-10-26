@@ -8,8 +8,8 @@
     <title>Test Page</title>
   </head>
   <body>
-    <div id="app" >
-		<div id="mapscontainer" style="display: inline-flex;">
+    <div id="app" style="display:flex;" >
+		<div id="map-containier">
 			<div id="battlemap" class="container">
 				<map id="primary" name="primary"s>
 				</map>
@@ -18,20 +18,34 @@
 					src=""/>
 			</div>
 			<div id="timescale" class="slider-wrapper">
-				<label id="timescale-label" class="vertical-label">Turns</label>
-  				<input id="timescale-slider" type="range" min="0" max="4" value="0" class="vertical-slider" onchange="updatetutrn(this.value)"/>
+				<div>
+					<button id="move-back" class="inline" onclick="timeback()">[<]</button>
+					<label id="timescale-label" class="inline">Turns</label>
+					<button id="move-forward" class="inline" onclick="timeforward()">[>]</button>
+				</div>
+				<input id="timescale-slider" type="range" min="0" max="4" value="0" onchange="update_turn(this.value)"/>
 			</div>
 			<div id="timemap" class="container">
+				<img id="curent-node"
+					usemap="#secondary"
+					src="redsquare.jpg" 
+					style="position: absolute; top: 20px;left: 20px;z-index: 0; width: 20px;"/>
 				<map id="secondary" name="secondary">
 				</map>
 				<img id="timemapimg"
 					usemap="#secondary"
-					src="Timelines\timelines.jpg"/>
+					src="Timelines\timelines.png" />
 			</div>
 		</div>
-		<div id="messagescontainer" class="container">
-			<div style="font-size: 25px;">Turn Log</div>
-			<div id="turn-log">
+		<div id="info-containier">
+			<div id="additional-info" class="container">
+				<div style="font-size: 25px;">Info box</div>
+				<div id="additional-log" style="text-align: left;">here would go additional info, one can get by clicking the map</div>
+				<img style="height: 75%;"id="additional-img"src="" />
+			</div>
+			<div id="messagescontainer" class="container">
+				<div style="font-size: 25px;">Turn Log</div>
+				<div id="turn-log" style="text-align: left;"></div>
 			</div>
 		</div>
 	</div>

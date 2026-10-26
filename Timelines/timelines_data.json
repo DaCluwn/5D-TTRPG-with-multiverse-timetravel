@@ -1,6 +1,6 @@
-{"nodes":[{"name":"I1","timeline":1,"round":1,"bounds":[225,35,275,85]},
-    {"name":"I2","timeline":1,"round":2,"bounds":[225,105,275,155]},
-    {"name":"I3","timeline":1,"round":3,"bounds":[225,175,275,235]},
-    {"name":"I4","timeline":1,"round":4,"bounds":[225,145,275,295]},
-    {"name":"II2","timeline":2,"round":2,"bounds":[295,105,345,155]}
+{"nodes":[{"name":"I1","timeline":1,"round":1,"bounds":[100,30,160,80]},
+    {"name":"I2","timeline":1,"round":2,"bounds":[200,30,250,80]},
+    {"name":"I3","timeline":1,"round":3,"bounds":[295,30,345,80]},
+    {"name":"I4","timeline":1,"round":4,"bounds":[390,30,445,80]},
+    {"name":"II2","timeline":2,"round":2,"bounds":[200,115,250,165]}
 ]}

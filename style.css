@@ -39,10 +39,16 @@ div {
   background-color: #1d1d1d; 
   border: 2px solid #353535; 
   border-radius: 8px;
+  text-align: center;
+  position: relative;
+}
+
+.inline{
+  display:inline-block;
+  text-align: center;
 }
 
 .slider-wrapper {
-  display: inline-block;
   padding: 7px;
   margin: 3px;
   background-color: #1d1d1d; 
@@ -50,27 +56,41 @@ div {
   border-radius: 8px;
 }
 
-.vertical-slider {
-  writing-mode: vertical-lr; 
-  direction: ltr;           
-  
-  height: 100%;              /* Takes the full height of the wrapper */
-  width: 15px;               /* Defines the slider thickness */
+#timescale-slider{
+  -webkit-appearance: none;
+  background-color: #353535;
+  height: 20px;
+  overflow: hidden;
+  width: 400px;
+}
+
+#timescale-slider::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  height: 20px;
+}
+
+#timescale-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #209020;
+  box-shadow: -1010px 0 0 1000px #209020;
   cursor: pointer;
+  height: 20px;
+  width: 20px;
+  border: none;
 }
 
-.vertical-label{
-  font-size: large;
-  writing-mode: sideways-lr; 
-  vertical-align: center;
+#timescale-slider::-moz-range-thumb {
+  background: #209020;
+  box-shadow: -1010px 0 0 1000px #209020;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  border: none;
 }
 
-/*
-#battlemap{
-	background-image: url(https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/%27OLD_COTTAGE%27_PENCIL_ON_PAPER_BY_JAIME_PROSSER.jpg/250px-%27OLD_COTTAGE%27_PENCIL_ON_PAPER_BY_JAIME_PROSSER.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail);
-	background-repeat: no-repeat;
-	background-size: cover;
-	/*	background-attachment: fixed;	
-	
+#timemapimg{
+  z-index: 1;
+  position: absolute;
+  left: 5px;
+  top: 5px
 }
-*/
